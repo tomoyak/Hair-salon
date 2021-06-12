@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+  <title>Hair Salon Shampoo</title>
+</head>
+<body style="background-image: url(img/back.jpg)">
+  <header>
+
+    <a  class="menuButton" id="menuButton">
+      <div></div>
+      <div></div>
+      <div></div>
+    </a>
+
+    <nav id="nav">
+      <ul>
+      <li onclick="scrollTo1()">Home</li>
+      <li onclick="scrollTo2()">About</li>
+      <li onclick="scrollTo3()">Menu</li>
+      <li onclick="scrollTo4()">Stylist</li>
+      <li onclick="scrollTo5()">Access</li>
+      <li onclick="scrollTo6()">sns</li>
+      </ul>
+      </nav>
+  </header>
+  <div class="header-wrapper" id="home">
+    <img class="mainimg" src="img/main3.PNG">
+    <div class="store-neme">
+      <p> Hair<br> Salon<br> Shampoo</p>
+    </div>
+ </div>
+
+ <section class="animationTarget">
+   <div class="about" id="about">
+     <div class="about-text">
+       <h1>〜あなたの「魅力」を引き出し〜<br>〜あなたに「似合う」ヘアスタイルを〜</h1>
+       <p>Hair salon shampooではトレンドの透明カラーやくすみカラーを得意としています。流行りに乗り遅れない、あなたらしいヘアスタイルをご提案いたします。</p>
+     </div>
+     <img src="img/women.jpg">
+   </div>
+ </section>
+
+ <section class="animationTarget">
+   <div class="Menu" id="menu" style="background-image: url(img/back2.jpg)">
+     <u><h1>Menu</h1></u>
+     <div class="Menu-theme">
+         <div class="cut">
+           <img src="img/cut.jpg">
+           <div class="cut-text">
+             <u><h2>Hair Cut</h2></u>
+             <p>お客様の骨格に合うヘアスタイルをご提案いたします。</p>
+           </div>
+         </div>
+
+
+         <div class="color">
+           <img src="img/women.jpg">
+           <div class="color-text">
+             <u><h2>Cut&Color</h2></u>
+             <p>トレンドの透明カラーやアッシュカラーなど多岐にわたるカラーに対応しており、お客様の好みに合った色を実現します。</p>
+           </div>
+         </div>
+
+
+         <div class="treatment">
+           <img src="img/treatment.jpg">
+           <div class="treatment-text">
+             <u><h2>Color&Treatment</h2></u>
+             <p>髪を痛めることなくカラーを入れることができます。女性におすすめしております。</p>
+           </div>
+         </div>
+
+     </div>
+   </div>
+ </section>
+
+
+
+  <div class="stylist" id="stylist" style="background-image: url(img/back4.jpg)">
+    <u><h2>STYLISTS</h2></u>
+    <div class="stylists">
+      <section class="animationTarget">
+        <div class="stylist1">
+          <img src="img/stylist1.jpg">
+          <div class="style1-text">
+            <h1>Hanako Yamada</h1>
+            <p>美容師歴4年<br>
+              女性ヘアスタイリングが得意です。トレンドのカラーやパーマなどなんでもご相談ください。InstagramのDMからご予約いただけます。<br>
+              Instagram： xxx.xxxxx
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="animationTarget">
+        <div class="stylist2">
+          <div class="style2-text">
+            <h1>Tanaka Tarou</h1>
+            <p>美容師歴6年<br>
+              女性だけでなく、男性のパーマややカラーも承っています。女性の前髪カットを得意としています。Instagramの写真をご参考ください。<br>
+              予約はInstagramのDMもしくはお電話でのお問い合わせいにより、承っています。
+              Instagram： xxx.xxxxx
+            </p>
+          </div>
+          <img src="img/stylist2.jpg">
+        </div>
+      </section>
+
+
+    </div>
+  </div>
+
+  <section class="animationTarget" id="access">
+    <div class="access"  id="scroll3" style="background-image: url(img/item.jpg)">
+      <u><h1>Access</h1></u>
+
+      <div class="access-container">
+        <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.952053542942!2d139.7005713!3d35.6896067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1618894133203!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="form">
+          <h1>お問い合わせ</h1>
+          <p>TEL: 000-000-000</p>
+
+          <p>住所：東京都新宿区〇〇ー〇〇<br>新宿ビル1F</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="animationTarget">
+    <div class="sns" id="sns" style="background-image: url(img/back5.jpg)">
+      <u><h1>sns</h1></u>
+      <div class="sns-texst">
+        <h2>Twitter</h2>
+        <h2>Instagram</h2>
+      </div>
+
+      <div class="sns-img">
+        <img class="twitter" src="img/twitter.jpeg">
+        <img class="insta" src="img/instagram.jpeg">
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
